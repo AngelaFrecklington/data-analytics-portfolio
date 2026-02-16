@@ -5,7 +5,7 @@ Analyze real sales data to uncover trends, top-performing products, and regional
 
 ## Tools Used
 - MySQL (queries, aggregations, GROUP BY)
-- Power BI (optional, for visualizations/screenshots)
+- Power BI 
 
 ## Questions Answered
 - What are total sales by month?
