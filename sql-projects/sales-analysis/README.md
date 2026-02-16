@@ -1,7 +1,7 @@
 # Sales Analysis (SQL)
 
 ## Objective
-Analyze real sales data to uncover trends, top-performing products, and regional performance.
+Analyse sales perfomrance data to identify revenue trends, product profitability, and regional performance patterns that could inform strategic business decisions.
 
 ## Tools Used
 - MySQL (queries, aggregations, GROUP BY)
