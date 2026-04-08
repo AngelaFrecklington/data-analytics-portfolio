@@ -2,9 +2,13 @@
 
 Welcome to my data analytics portfolio.
 
-I am a career changer transitioning into the tech industry, currently studying Data Analytics while building practical, real-world projects. With a background in business ownership and the mining industry, I bring strong problem-solving skills, attention to detail, and a focus on delivering meaningful outcomes.
+I am a career changer transitioning into the tech industry, currently studying towards a Diploma in Data Analytics and a Certificate in Information Technology (Level 5), while building practical, real-world projects.
 
-www.linkedin.com/in/angela-frecklington
+With over 20 yers of transferable experince across business ownership and the mining industry, I bring strong foundation in problem-solving skills, attention to detail, and working in high responsibility enviromeants.
+
+I am passionate about analysing data to uncover meaningful insights that support better decision-making for businesses and organisations.
+
+Connect with me on www.linkedin.com/in/angela-frecklington
 
 ## Skills
 - SQL (queries, joins, aggregations)
