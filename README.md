@@ -1,7 +1,10 @@
 # Data Analytics Portfolio – Angela Frecklington
 
-Welcome to my data analytics portfolio.  
-This repository contains projects demonstrating my skills in data analysis.
+Welcome to my data analytics portfolio.
+
+I am a career changer transitioning into the tech industry, currently studying Data Analytics while building practical, real-world projects. With a background in business ownership and the mining industry, I bring strong problem-solving skills, attention to detail, and a focus on delivering meaningful outcomes.
+
+www.linkedin.com/in/angela-frecklington
 
 ## Skills
 - SQL (queries, joins, aggregations)
