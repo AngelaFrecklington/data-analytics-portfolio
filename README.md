@@ -11,9 +11,29 @@ I am passionate about analysing data to uncover meaningful insights that support
 Connect with me on www.linkedin.com/in/angela-frecklington
 
 ## Skills
-- SQL (queries, joins, aggregations)
-- Python (pandas, data cleaning, analysis)
-- Power BI (dashboards, KPIs, visual insights)
+**Data Analysis & Visualisation**
+- Data cleaning and transformation  
+- Exploratory Data Analysis (EDA)  
+- Data visualisation and storytelling  
+- Dashboard development  
+
+**Tools & Technologies**
+- Python (Pandas, Matplotlib, Seaborn)  
+- SQL  
+- Power BI  
+- Excel (PivotTables, Power Query)  
+
+**Machine Learning**
+- Logistic Regression  
+- Random Forest  
+- Gradient Boosting  
+- Model evaluation (accuracy, confusion matrix, RMSE)  
+
+**Core Strengths**
+- Problem-solving and analytical thinking  
+- Attention to detail  
+- Communication and data storytelling  
+- Stakeholder-focused mindset  
 
 ## Projects
 
