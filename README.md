@@ -53,7 +53,5 @@ A predictive analytics project focused on identifying whether a loan applicant i
 
 👉 [View Full Project](./sql-projects/Loan_approval_status)
 
-## About Me
-I am currently undertaking a Diploma in Data Analytics at Mission Ready in Auckland and a Certificate in Information Technology (Level 5) through Open Polytechnic.  
-I am building practical skills to transition into a data analyst role.
+
 
