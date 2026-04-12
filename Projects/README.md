@@ -55,4 +55,5 @@ A predictive analytics project focused on identifying whether a loan applicant i
 
 **Tools:** Python, Pandas, Scikit-learn, Seaborn  
 
-👉 [View Full Project](./Projects/Loan_Approval_Status.ipynb)
+👉 [View Notebook](./Projects/Loan_Approval_Status.ipynb)  
+👉 [Download Notebook](./Projects/Loan_Approval_Status.ipynb)
