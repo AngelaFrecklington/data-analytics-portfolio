@@ -55,4 +55,4 @@ A predictive analytics project focused on identifying whether a loan applicant i
 
 **Tools:** Python, Pandas, Scikit-learn, Seaborn  
 
-👉 [View Full Project](./Projects/Mission%205_ANZ%20Bank%20Analytics%20Challenge%20_%20Predicting%20Loan%20Status.ipynb)
+👉 [View Full Project](./Projects/loan-approval-prediction.ipynb)
