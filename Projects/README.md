@@ -1,4 +1,4 @@
-Data Analytics Portfolio – Angela Frecklington
+**Data Analytics Portfolio – Angela Frecklington**
 Welcome to my data analytics portfolio.
 
 I am a career changer transitioning into the tech industry, currently studying towards a Diploma in Data Analytics and a Level 5 Certificate in Information Technology, while building practical, real-world projects.
