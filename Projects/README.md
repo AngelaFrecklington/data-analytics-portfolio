@@ -54,4 +54,5 @@ A predictive analytics project focused on identifying whether a loan applicant i
 - Focused on reducing false negatives to minimise financial risk  
 
 **Tools:** Python, Pandas, Scikit-learn, Seaborn  
-Projects/Loan_Approval_Status.ipynb ✅
+
+👉 [View Notebook](./Loan_Approval_Status.ipynb)
