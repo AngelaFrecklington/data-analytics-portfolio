@@ -1,58 +1,84 @@
-# Data Analytics Portfolio – Angela Frecklington
+# Loan Approval Prediction (ANZ Bank Analytics Challenge)
 
-Welcome to my data analytics portfolio.
+## 📌 Business Problem
+In the banking sector, accurately predicting whether a loan applicant will default is critical for managing financial risk. 
 
-I am a career changer transitioning into the tech industry, currently studying towards a Diploma in Data Analytics and a Level 5 Certificate in Information Technology, and applying my skills through hands-on projects.
-
-With over 20 years of transferable experience across business ownership and the mining industry, I bring a strong foundation in problem-solving, attention to detail, and working in high-responsibility environments.
-
-I am passionate about analysing data to uncover meaningful insights that support better decision-making for businesses and organisations.
-
-Connect with me on:  
-🔗 www.linkedin.com/in/angela-frecklington
+The objective of this project was to build a machine learning model to predict loan default risk, helping lenders make safer and more informed decisions. The focus was on minimising false negatives (i.e. incorrectly approving high-risk applicants).
 
 ---
 
-## Skills
+## 📊 Dataset
+The dataset included customer and loan-related features such as:
+- Age
+- Income
+- Employment experience
+- Loan amount
+- Loan intent
+- Interest rate
+- Credit history length
+- Credit score
 
-### Data Analysis & Visualisation
-- Data cleaning and transformation  
-- Exploratory Data Analysis (EDA)  
-- Data visualisation and storytelling  
-- Dashboard development  
+Target variable:
+- `loan_status` (0 = approved, 1 = default)
 
-### Tools & Technologies
-- Python (Pandas, Matplotlib, Seaborn)  
-- SQL  
-- Power BI  
-- Excel (PivotTables, Power Query)  
+---
 
-### Machine Learning
+## 🔧 Data Preparation
+- Cleaned dataset and handled inconsistencies  
+- Removed unrealistic values (e.g. ages over 100)  
+- Converted categorical variables using one-hot encoding  
+- Checked for missing values and validated data quality  
+
+---
+
+## 📈 Exploratory Data Analysis (EDA)
+- Analysed distributions of loan amount, income, and credit score  
+- Explored relationships between features and loan default  
+- Created correlation heatmaps to identify key predictors  
+
+---
+
+## 🤖 Models Used
 - Logistic Regression  
 - Random Forest  
 - Gradient Boosting  
-- Model evaluation (accuracy, confusion matrix, RMSE)  
-
-### Core Strengths
-- Problem-solving and analytical thinking  
-- Attention to detail  
-- Communication and data storytelling  
-- Stakeholder-focused mindset  
 
 ---
 
-## Projects
+## 📊 Model Evaluation
+Models were evaluated using:
+- Accuracy  
+- Confusion Matrix  
+- Focus on reducing **false negatives** to minimise financial risk  
 
-### 🔹 Loan Approval Prediction (Machine Learning Project)
+---
 
-A predictive analytics project focused on identifying whether a loan applicant is likely to default using machine learning models.
+## 🏆 Results
+- Best performing model: **Gradient Boosting**  
+- Achieved approximately **93% accuracy**  
+- Demonstrated strong ability to identify high-risk loan applicants  
 
-**Key Highlights:**
-- Performed data cleaning and exploratory data analysis (EDA)  
-- Built and compared multiple models (Logistic Regression, Random Forest, Gradient Boosting)  
-- Achieved ~93% accuracy with Gradient Boosting  
-- Focused on reducing false negatives to minimise financial risk  
+---
 
-**Tools:** Python, Pandas, Scikit-learn, Seaborn  
+## 💡 Key Insights
+- Income and credit score were strong indicators of loan approval  
+- Higher loan amounts were associated with increased default risk  
+- Model performance improved with feature engineering and data cleaning  
 
-👉 [View Notebook](./Loan_Approval_Status.ipynb)
+---
+
+## 🛠 Tools & Technologies
+- Python  
+- Pandas  
+- Scikit-learn  
+- Matplotlib & Seaborn  
+
+---
+
+## 🚀 Project Outcome
+This project demonstrates how machine learning can be applied to real-world financial data to support better lending decisions and reduce risk.
+
+---
+
+## 🔗 Back to Portfolio
+👉 https://github.com/AngelaFrecklington/data-analytics-portfolio
