@@ -26,7 +26,7 @@ Target variable:
 ## 🔧 Data Preparation
 - Cleaned dataset and handled inconsistencies  
 - Removed unrealistic values (e.g. ages over 100)  
-- Converted categorical variables using one-hot encoding  
+- Encoded categorical variables to prepare the data for modelling 
 - Checked for missing values and validated data quality  
 
 ---
