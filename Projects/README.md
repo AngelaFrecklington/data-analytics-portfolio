@@ -1,9 +1,9 @@
 # Loan Approval Prediction (ANZ Bank Analytics Challenge)
 
 ## 📌 Business Problem
-In the banking sector, accurately predicting whether a loan applicant will default is critical for managing financial risk. 
+In the banking sector, predicting whether a loan applicant will default is essential for managing financial risk.
 
-The objective of this project was to build a machine learning model to predict loan default risk, helping lenders make safer and more informed decisions. The focus was on minimising false negatives (i.e. incorrectly approving high-risk applicants).
+The objective of this project was to develop a machine learning model to assess loan default risk, supporting lenders in making more informed and lower-risk decisions. A key focus was on minimising false negatives, where high-risk applicants are incorrectly approved.
 
 ---
 
