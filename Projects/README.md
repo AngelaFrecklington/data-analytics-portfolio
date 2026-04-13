@@ -49,13 +49,13 @@ Target variable:
 Models were evaluated using:
 - Accuracy  
 - Confusion Matrix  
-- Focus on reducing **false negatives** to minimise financial risk  
+- Focus on reducing false negatives to minimise financial risk  
 
 ---
 
 ## 🏆 Results
-- Best performing model: **Gradient Boosting**  
-- Achieved approximately **93% accuracy**  
+- Best performing model: Gradient Boosting 
+- Achieved approximately 93% accuracy  
 - Demonstrated strong ability to identify high-risk loan applicants  
 
 ---
