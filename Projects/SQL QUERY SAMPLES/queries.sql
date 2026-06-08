@@ -1,30 +1,45 @@
-#Revenue by Publisher #
+-- ## SORTING (ORDER BY) ##
+
 SELECT
-    publisher,
-    SUM(total_revenue) AS total_revenue
+    game_name,
+    total_revenue
 FROM games
-GROUP BY publisher
 ORDER BY total_revenue DESC;
 
-#Top Publishers by Revenue Using RANK()#
+
+-- ## FILTERING (WHERE) ##
+
+SELECT
+    game_name,
+    review_score
+FROM games
+WHERE review_score > 80
+ORDER BY review_score DESC;
+
+
+-- ## AGGREGATIONS (SUM, AVG, COUNT) ##
+
 SELECT
     publisher,
+    COUNT(*) AS total_games,
     SUM(total_revenue) AS total_revenue,
-    RANK() OVER (
-        ORDER BY SUM(total_revenue) DESC
-    ) AS revenue_rank
+    AVG(review_score) AS average_review_score
 FROM games
 GROUP BY publisher;
 
-#Average review score by publisher#
+
+-- ## GROUPING (GROUP BY) ##
+
 SELECT
     publisher,
-    AVG(review_score) AS average_review_score
+    COUNT(game_name) AS number_of_games
 FROM games
 GROUP BY publisher
-ORDER BY average_review_score DESC;
+ORDER BY number_of_games DESC;
 
-#Games with Highest Positive Review Percentage#
+
+-- ## CALCULATED COLUMNS ##
+
 SELECT
     game_name,
     positive_reviews,
@@ -32,19 +47,78 @@ SELECT
     ROUND(
         (positive_reviews * 100.0) / total_reviews,
         2
-    ) AS positive_review_percentage
+    ) AS review_percentage
 FROM games
-WHERE total_reviews > 0
-ORDER BY positive_review_percentage DESC;
+WHERE total_reviews > 0;
 
-#Engagement Analysis#
+
+-- ## CASE STATEMENTS ##
+
 SELECT
     game_name,
-    owners,
-    average_playtime,
-    ROUND(
-        average_playtime / owners,
-        4
-    ) AS engagement_ratio
+    review_score,
+    CASE
+        WHEN review_score >= 90 THEN 'Excellent'
+        WHEN review_score >= 75 THEN 'Good'
+        ELSE 'Average'
+    END AS review_category
+FROM games;
+
+
+-- ## WINDOW FUNCTIONS (RANK) ##
+
+SELECT
+    publisher,
+    SUM(total_revenue) AS total_revenue,
+    RANK() OVER(
+        ORDER BY SUM(total_revenue) DESC
+    ) AS revenue_rank
 FROM games
-ORDER BY engagement_ratio DESC;
+GROUP BY publisher;
+
+
+-- ## INNER JOIN ##
+
+SELECT
+    g.game_name,
+    g.publisher,
+    p.publisher_country
+FROM games g
+INNER JOIN publishers p
+    ON g.publisher = p.publisher_name;
+
+
+-- ## LEFT JOIN ##
+
+SELECT
+    g.game_name,
+    g.publisher,
+    p.publisher_country
+FROM games g
+LEFT JOIN publishers p
+    ON g.publisher = p.publisher_name;
+
+
+-- ## HAVING ##
+
+SELECT
+    publisher,
+    SUM(total_revenue) AS total_revenue
+FROM games
+GROUP BY publisher
+HAVING SUM(total_revenue) > 1000000;
+
+
+-- ## COMMON TABLE EXPRESSIONS (CTE) ##
+
+WITH publisher_revenue AS (
+    SELECT
+        publisher,
+        SUM(total_revenue) AS total_revenue
+    FROM games
+    GROUP BY publisher
+)
+
+SELECT *
+FROM publisher_revenue
+ORDER BY total_revenue DESC;
